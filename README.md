@@ -18,6 +18,10 @@
 
 ![image](https://cdn.discordapp.com/attachments/963540541637804112/963910283909275678/covid19jpg.jpg)
 
+## Deployement
+
+  [Live Demo](https://covid-19-global-data.netlify.app/)
+
 ## Getting Started
 
 To get a local copy follow these simple example steps.  
@@ -46,7 +50,7 @@ To get a local copy follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/HectorTorresE/Space-Travelers-Hub/issues).
+Feel free to check the [issues page](https://github.com/HectorTorresE/capstone/issues).
 
 ## Show your support
 
