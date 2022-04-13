@@ -5,7 +5,7 @@ import { ThemeProvider } from 'styled-components';
 import theme from './theme';
 import Home from '../pages/Home';
 
-it('the home component shoudl have six cards', async () => {
+it('the home component has six cards?', async () => {
   render(
     <ThemeProvider theme={theme}>
       <Router>

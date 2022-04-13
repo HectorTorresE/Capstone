@@ -2,7 +2,6 @@ import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { HiChevronLeft } from 'react-icons/hi';
 import Nav from './NavBar.style';
-import logo from '../../assets/images/logo.png';
 
 const NavBar = () => {
   const navigate = useNavigate();
@@ -15,7 +14,10 @@ const NavBar = () => {
         <HiChevronLeft className="arrow-left" onClick={() => navigate(-1)} />
       )}
       <h2 className="header-title">{url[1] || url[0]}</h2>
-      <img src={logo} alt="Header" className="logo" onClickCapture={() => navigate('/')} />
+      <h2 className="logo" onClickCapture={() => navigate('/')}>
+        COVID
+        <span>19</span>
+      </h2>
     </Nav>
   );
 };
